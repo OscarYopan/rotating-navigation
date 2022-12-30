@@ -14,9 +14,8 @@ html{
   --cor5: #D6D58E;
   --gray: #333;
   --gray2: #222;
-
   font-family: 'Roboto', sans-serif;
-  /* font-size: 62.5%; */
+  font-size: 62.5%;
 }
 
 body{
@@ -30,10 +29,8 @@ body{
   background-color: var(--cor5);
   width: 100vw;
   min-height: 100vh;
-
   transform-origin: top left;
   transition: transform .5s linear;
-
   padding: 5rem;
 }
 
@@ -65,14 +62,10 @@ body{
   top: 50%;
   left: 50%;
   height: 10rem;
-
   background-color: transparent;
-
   border: 0;
-
   font-size: 2.6rem;
   color: white;
-
   cursor: pointer;
 }
 
@@ -103,9 +96,7 @@ nav{
   position: fixed;
   bottom: 4rem;
   left: 0;
-
   color: white;
-
   z-index: 100;
 }
 
@@ -119,10 +110,10 @@ nav ul li{
   align-items: center;
   text-transform: uppercase;
   margin: 2rem 0;
-
   transform: translateX(-100%);
   transition: tranform .4s ease-in;
   cursor: pointer;
+  font-size: 2rem;
 }
 
 nav ul li:hover{
@@ -156,12 +147,14 @@ nav ul li + li + li{
 
 .content h1{
   margin: 0;
+  font-size: 3rem;
 }
 
 .content small{
   color: #555;
   font-style: italic;
   margin-bottom: 2rem;
+  font-size: 1.4rem;
 }
 
 .content p{
@@ -169,6 +162,7 @@ nav ul li + li + li{
   line-height: 1.5;
   margin: 1rem auto;
   text-align: justify;
+  font-size: 1.6rem;
 }
 
 .image{
